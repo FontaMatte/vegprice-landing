@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>VegPrice – Confronta i prezzi dei prodotti vegetariani</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+        <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        </style>
+    </head>
+    <body class="bg-white text-gray-900">
+
+        <header class="bg-green-600 text-white py-6 shadow">
+        <div class="max-w-4xl mx-auto px-4">
+            <h1 class="text-3xl font-bold">VegPrice</h1>
+            <p class="text-sm">Trova il miglior prezzo per i tuoi prodotti vegetariani preferiti</p>
+        </div>
+        </header>
+
+        <main class="max-w-3xl mx-auto px-4 py-16 space-y-16">
+
+            <!-- Iscrizione -->
+            <section>
+                <h2 class="text-3xl font-semibold mb-4">Iscriviti per essere tra i primi a provarlo!</h2>
+                <p class="mb-6 text-gray-600">
+                Stiamo costruendo il primo comparatore prezzi per prodotti vegetariani e proteici. Ricevi aggiornamenti e accedi alla versione beta.
+                </p>
+                <form
+                action="https://formspree.io/f/mgvzapqz"
+                method="POST"
+                class="space-y-4"
+                >
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="La tua email"
+                    required
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md"
+                />
+                <button
+                    type="submit"
+                    class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-md"
+                >
+                    Iscrivimi
+                </button>
+                </form>
+            </section>
+
+            <!-- Come funziona -->
+            <section>
+                <h2 class="text-2xl font-bold mb-4">Come funziona?</h2>
+                <ul class="space-y-3 text-gray-700">
+                <li>🔎 Cerchi un prodotto come tofu, burger vegetali o yogurt proteico</li>
+                <li>🏪 VegPrice confronta i prezzi nei principali supermercati e store online</li>
+                <li>📊 Ti mostra dove conviene acquistarlo</li>
+                <li>📦 In futuro potrai creare una lista della spesa ottimizzata</li>
+                </ul>
+            </section>
+
+            <!-- Perché VegPrice -->
+            <section>
+                <h2 class="text-2xl font-bold mb-4">Perché VegPrice?</h2>
+                <div class="space-y-2 text-gray-700">
+                <p>🌱 Perché mangiare vegetariano non dovrebbe costare di più.</p>
+                <p>💪 Aiutiamo chi segue una dieta ricca di proteine vegetali a risparmiare tempo e denaro.</p>
+                <p>🧠 Unisciti alla community di consumatori intelligenti e consapevoli.</p>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="text-center text-sm text-gray-500 py-6">
+            © 2025 VegPrice – Tutti i diritti riservati
+        </footer>
+
+    </body>
+</html>
