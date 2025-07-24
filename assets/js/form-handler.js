@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(response => {
         if (response.ok) {
           form.reset();
-          successMessage.style.display = "block";
+          successMessage.classList.remove("hidden");
         } else {
           alert("Errore nell'invio. Riprova.");
         }
